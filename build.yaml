@@ -13,11 +13,9 @@
 #
 ---
 include:
-
-
-# Revision 2
+  # Revision 2
   - board: seeeduino_xiao_ble
-    shield: corne_xiao_v2_left rgbled_adapter
+    shield: corne_xiao_v2_left nice_oled
     snippet: studio-rpc-usb-uart
   - board: seeeduino_xiao_ble
-    shield: corne_xiao_v2_right rgbled_adapter
+    shield: corne_xiao_v2_right nice_oled
