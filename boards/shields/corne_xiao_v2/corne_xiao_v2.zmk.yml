@@ -2,13 +2,12 @@ file_format: "2"
 id: corne
 name: Corne
 type: shield
-url: https://github.com/friction07/corne-xiao 
+url: https://github.com/friction07/corne-xiao
 requires: [seeeduino_xiao_ble]
 exposes: [i2c_oled]
 features:
   - keys
   - display
-  - encoder
   - studio
 siblings:
   - corne_xiao_v2_left
