@@ -15,7 +15,7 @@
 include:
   # Revision 2
   - board: seeeduino_xiao_ble
-    shield: corne_xiao_v2_left nice_oled
+    shield: corne_xiao_v2_left nice_view_custom
     snippet: studio-rpc-usb-uart
   - board: seeeduino_xiao_ble
-    shield: corne_xiao_v2_right nice_oled
+    shield: corne_xiao_v2_right nice_view_custom

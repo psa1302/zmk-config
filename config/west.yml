@@ -2,17 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-      # support nice_oled and nice_epaper
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
+    - name: dsifry
+      url-base: https://github.com/dsifry
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-      # support nice_oled and nice_epaper
-    - name: zmk-nice-oled
-      remote: mctechnology17
+    - name: nice-view-mod
+      remote: dsifry
       revision: main
   self:
     path: config
