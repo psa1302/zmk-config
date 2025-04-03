@@ -9,6 +9,17 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+        combo_studio_unlock {
+            timeout-ms = <50>;
+            key-positions = <0 1>;
+            bindings = <&studio_unlock>;
+        };
+    };
+};
+
+/ {
         behaviors {
           tp: tap_preferred {
             compatible = "zmk,behavior-hold-tap";
