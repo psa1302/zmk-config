@@ -4,18 +4,17 @@
 
     lower_layer {
       display-name="lower";
-
-// ------------------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |                    |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |                    | LFT | DWN |  UP | RGT |     |  F12 |
-// | SHFT | F1  | F2  | F3  | F4  | F5  |  boot  |  |        |  F6 | F7  | F8  | F9  | F10 |  F11 |
-//                    | GUI |     | SPC |                    | ENT |     | ALT |
-      bindings = <
-&kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5                         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0  &kp BSPC
-&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans  &kp F12
-&kp LSHFT  &kp F1       &kp F2       &kp F3       &kp F4       &kp F5       &bootloader &none &kp F6   &kp F7   &kp F8 &kp F9    &kp F10 &kp F11
-                                     &kp LGUI     &trans       &kp SPACE                      &kp RET  &trans   &kp LALT
-      >;
+// -----------------------------------------------------------------------------------------
+// |      |  !  |  @  |  #  |  $  |    %     |   |  ^  |  &  |  *  |  (  |  )  |   \   |
+// |      |  1  |  2  |  3  |  4  |    5     |   |  -  |  =  |  `  |  [  |  ]  |  "|"  |
+// | SHFT |  6  |  7  |  8  |  9  |    0     |   |  _  |  +  |  ~  |  {  |  }  | RSHFT |
+//                     | GUI |     | ALT/ENT |   | HYPER/SPACE | BKSP |    |
+                        bindings = <
+   &trans    &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET  &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSLH
+   &trans    &kp N1   &kp N2 &kp N3   &kp N4   &kp N5      &kp MINUS  &kp EQUAL &kp GRAVE       &kp LBKT &kp RBKT &kp PIPE
+   &kp LSHFT &kp N6   &kp N7 &kp N8   &kp N9   &kp N0      &kp UNDER  &kp PLUS  &kp TILDE       &kp LBRC &kp RBRC &kp RSHFT
+                         &kp LGUI &trans  &tp LALT RET     &tp LC(LS(LA(LGUI))) SPACE &kp BSPC  &trans
+                        >;
     };
   };
 };
