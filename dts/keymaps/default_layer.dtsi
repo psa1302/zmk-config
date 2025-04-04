@@ -15,7 +15,6 @@
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT 
                &kp LGUI &mo 1 &tp LALT RET   &tp LC(LS(LA(LGUI))) SPACE &kp BSPC &mo 2
                         >;
-      >;
     };
   };
 };
