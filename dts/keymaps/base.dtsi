@@ -11,9 +11,10 @@
 #define COMBO_TERM_DEFAULT 30
 #define COMBO_QUICK_TAP_MS 100
 
+#include "behaviors.dtsi"
 #include "combos.dtsi"
 
 // Layers
-#include "L1.dtsi"
-#include "L2.dtsi"
-#include "Fn.dtsi"
+#include "default_layer.dtsi"
+#include "lower_layer.dtsi"
+#include "upper_layer.dtsi"
