@@ -21,7 +21,7 @@
                   ╰────────────╯  ╰────────────╯
     */
 
-     /* ZMK unlock */
-    COMBO(studio_unlock, &studio_unlock, 0 1, L1 L2, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    /* ZMK unlock */
+    COMBO(studio_unlock, &studio_unlock, 0 1, base lower, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
   };
 };
