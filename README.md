@@ -1,4 +1,18 @@
-# ZMK Config
+<div align="center">
+
+# <img src="assets/icon.png" alt="" height="40" valign="middle" /> Corne ZMK Config
+
+**ZMK firmware config for my hand-built Corne split keyboards on nice!nano boards.**
+
+<a href="https://zmk.dev/"><img src="https://img.shields.io/badge/ZMK-2563EB" alt="ZMK" /></a>
+<a href="https://www.zephyrproject.org/"><img src="https://img.shields.io/badge/Zephyr-7929D2?logo=zephyrproject&logoColor=white" alt="Zephyr" /></a>
+<a href="https://github.com/foostan/crkbd"><img src="https://img.shields.io/badge/Corne-0F766E" alt="Corne" /></a>
+<a href="https://nicekeyboards.com/nice-nano/"><img src="https://img.shields.io/badge/nice!nano-0EA5E9" alt="nice!nano" /></a>
+<a href="https://zmk.dev/docs/features/bluetooth"><img src="https://img.shields.io/badge/Bluetooth-0082FC?logo=bluetooth&logoColor=white" alt="Bluetooth" /></a>
+
+</div>
+
+---
 
 This repository contains configuration files for a ZMK (ZMK Firmware) powered keyboard.
 
